@@ -50,5 +50,13 @@ output for only the executed code chunk
 
 ![RStudio IDE "Run" options for R Markdown](./img/run-rmd.png)
 
+### R Notebooks
 
+If you like the latter, interactive approach to R Markdown, then you might
+appreciate [R Notebooks](./rnotebook/exploration.Rmd). 
+
+R Notebooks are very much the same as R Markdown documents, except they "cache"
+or "remember" the output of their code chunks. This makes them much more useful
+for interactive exploration, but more troublesome for reproducibile analysis (in
+the case that you forget to update a code chunk).
 
