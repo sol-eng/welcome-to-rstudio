@@ -25,7 +25,7 @@ applications. There is an [example Shiny application](./shiny-app/app.R)
 in this folder for you to try! Navigate to the file and click “Run App”
 in the top right corner.
 
-![Shiny Run App button](./img/run-app.png)
+![RStudio IDE Shiny “Run App” button](./img/run-app.png)
 
 ### R Markdown Documents
 
@@ -33,3 +33,26 @@ This README is a R Markdown document. It is much like a markdown
 document, except code is welcome! There is a [more typical RMarkdown
 document](./rmarkdown/analysis.Rmd) in this folder for you to explore,
 as well.
+
+Once you have opened an R Markdown document, you can either:
+
+-   “knit” the whole document. This runs all chunks and generates the
+    final output
+
+![RStudio IDE “Knit” button](./img/knit.png)
+
+-   “Run” code chunks individually. This runs each chunk interactively
+    and shows the output for only the executed code chunk
+
+![RStudio IDE “Run” options for R Markdown](./img/run-rmd.png)
+
+### R Notebooks
+
+If you like the latter, interactive approach to R Markdown, then you
+might appreciate [R Notebooks](./rnotebook/exploration.Rmd).
+
+R Notebooks are very much the same as R Markdown documents, except they
+“cache” or “remember” the output of their code chunks. This makes them
+much more useful for interactive exploration, but more troublesome for
+reproducibile analysis (in the case that you forget to update a code
+chunk).
