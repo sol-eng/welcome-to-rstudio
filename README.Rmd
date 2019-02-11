@@ -15,8 +15,7 @@ capabilities of R and RStudio.
 ## How to Use
 
 When links are presented within the document, CTRL + Click (or Cmd + Click) on
-the path to navigate to that file. For example, a [Shiny
-Application](./shiny-app/app.R).
+the path to navigate to that file. For example, a [Shiny Application](./shiny-app/app.R).
 
 ## Types of Content
 
